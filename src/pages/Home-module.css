@@ -1,0 +1,358 @@
+.main{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    padding: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(141, 213, 201, 0.542);
+
+}
+
+.main-type{
+
+    min-width: 75px;
+    max-width: 75px;
+    margin: 5%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 0.9rem;
+
+}
+
+.main-type::first-letter{
+
+    text-transform: uppercase;
+
+}
+
+.normal{
+
+    background-color: #A8A878;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.normal:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #A8A878 2px solid;
+    transition: 1s;
+
+}
+
+.fire{
+
+    background-color:#F08030;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.fire:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #F08030 2px solid;
+    transition: 1s;
+
+}
+
+.water{
+
+    background-color: #6890F0;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.water:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #6890F0 2px solid;
+    transition: 1s;
+
+}
+
+.grass{
+
+    background-color: #78C850;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.grass:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #78C850 2px solid;
+    transition: 1s;
+
+}
+
+.electric{
+
+    background-color: #F8D030;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.electric:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #F8D030 2px solid;
+    transition: 1s;
+
+}
+
+.ice{
+
+    background-color: #98D8D8;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.ice:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #98D8D8 2px solid;
+    transition: 1s;
+
+}
+
+.fighting{
+
+    background-color: #C03028;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.fighting:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #C03028 2px solid;
+    transition: 1s;
+
+}
+
+.poison{
+
+    background-color: #A040A0;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.poison:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #A040A0 2px solid;
+    transition: 1s;
+
+}
+
+.ground{
+
+    background-color: #E0C068;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.ground:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #E0C068 2px solid;
+    transition: 1s;
+
+}
+
+.flying{
+
+    background-color: #A890F0;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.flying:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #A890F0 2px solid;
+    transition: 1s;
+
+}
+
+.psychic{
+
+    background-color: #F85888;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.psychic:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #F85888 2px solid;
+    transition: 1s;
+
+}
+
+.bug{
+
+    background-color: #A8B820;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.bug:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #A8B820 2px solid;
+    transition: 1s;
+
+}
+
+.rock{
+
+    background-color: #705848;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.rock:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #705848 2px solid;
+    transition: 1s;
+
+}
+
+.ghost{
+
+    background-color: #7038F8;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.ghost:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #7038F8 2px solid;
+    transition: 1s;
+
+}
+
+.steel{
+
+    background-color: #B8B8D0;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.steel:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #B8B8D0 2px solid;
+    transition: 1s;
+
+}
+
+.dragon{
+
+    background-color: #7038F8;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.dragon:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #7038F8 2px solid;
+    transition: 1s;
+
+}
+
+.dark{
+
+    background-color: #705848;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.dark:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #705848 2px solid;
+    transition: 1s;
+
+}
+
+.fairy{
+
+    background-color: #F0B6BC;
+    color: #fff;
+    border: #000 2px solid;
+    transition: .5s;
+
+}
+
+.fairy:hover{
+
+    background-color: transparent;
+    color: #000;
+    border: #F0B6BC 2px solid;
+    transition: 1s;
+
+}

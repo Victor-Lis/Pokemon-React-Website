@@ -1,0 +1,134 @@
+nav{
+
+    width: 95%;
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(70, 70, 70);
+  
+  }
+  
+  .links_area{
+  
+    width: 50%;
+    display: flex;
+    column-gap: 5%;
+  
+  }
+  
+  .links_area > a{
+  
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  
+  .links_area > a:hover{
+  
+    color: rgb(68, 139, 205);
+    transition: 1s;
+  
+  }
+  
+  .inputs_area{
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: 75%;
+    column-gap: 2%;
+  
+  }
+  
+  .inputs_area > button{
+  
+    width: 38%;
+    height: 100%;
+    padding: 2.5%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    color: #fff;
+    background-color: rgb(70, 70, 70);
+    border: #fff 2px solid;
+    border-radius: 10px;
+  
+  }
+  
+  
+  .inputs_area > button:hover{
+  
+    border: rgb(68, 139, 205) 2px solid;
+    color: rgb(68, 139, 205);
+    transition: 1s;
+    cursor: pointer;
+  
+  }
+  
+  .inputs_area > input:focus{
+  
+    border: rgb(68, 139, 205) 2px solid;
+    color: rgb(68, 139, 205);
+    transition: 1s;
+  
+  }
+  
+  .inputs_area > input{
+  
+    width: 65%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    padding: 2.5%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    border: #fff 2px solid;
+    color: #fff;
+    outline: none;
+  
+  }
+
+  .inputs_area > input::placeholder{
+
+    color: rgba(255, 255, 255, 0.775);
+
+  }
+  
+  @media (min-width: 400px) {
+    
+    .nav{
+  
+      padding: 1.5%;
+      width: 97%;
+  
+    }
+  
+    .links_area{
+  
+      justify-content: flex-start;
+      column-gap: 05%;
+  
+    }
+  
+    .inputs_area{
+  
+      justify-content: flex-end;
+  
+    }
+  
+    .inputs_area > input{
+  
+      min-height: 100%;
+      padding-left: 1.5%;
+      width: unset;
+  
+    }
+  
+    .inputs_area > button{
+  
+      min-height: 100%;
+      width: unset;
+  
+    }
+  
+  }
