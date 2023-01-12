@@ -20,6 +20,7 @@ nav{
   
     color: #fff;
     text-decoration: none;
+    font-weight: 600;
   
   }
   
@@ -94,6 +95,29 @@ nav{
 
   }
   
+  @media (max-width: 400px){
+
+    .links_area > a{
+
+      font-size: 1.2rem;
+
+    }
+
+    .inputs_area > input{
+
+      max-width: 85px;
+      min-height: 20px;
+
+    }
+
+    .inputs_area > button{
+
+      min-height: 25px;
+
+    }
+
+  }
+
   @media (min-width: 400px) {
     
     .nav{

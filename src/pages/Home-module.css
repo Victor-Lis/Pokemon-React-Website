@@ -27,6 +27,17 @@
 
 }
 
+@media (max-width: 400px){
+
+    .main-type{
+
+        min-width: 105px;
+        max-width: 105px;
+
+    }
+
+}
+
 .main-type::first-letter{
 
     text-transform: uppercase;
