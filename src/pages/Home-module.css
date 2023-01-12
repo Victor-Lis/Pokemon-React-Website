@@ -31,8 +31,9 @@
 
     .main-type{
 
-        min-width: 105px;
-        max-width: 105px;
+        min-width: 150px;
+        font-size: 1.2rem;
+        font-weight: 500;
 
     }
 
