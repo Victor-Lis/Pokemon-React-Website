@@ -100,7 +100,9 @@ nav{
     .nav{
   
       padding: 3.5%;
-      width: 93%;
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 90%;
   
     }
 
