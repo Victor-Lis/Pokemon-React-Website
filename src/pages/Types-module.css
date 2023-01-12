@@ -1,0 +1,49 @@
+.type{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(141, 213, 201, 0.542);
+
+}
+
+.title-type{
+
+    text-align: center;
+
+    padding: 1%;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #fff;
+    width: 50%;
+    transition: .5s;
+
+}
+
+.title-type:hover{
+
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    transition: 1s;
+
+}
+
+.title-type::first-letter{
+
+    text-transform: uppercase;
+
+}
+
+.type-area{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    width: 90%;
+    padding: 2.5% 5%;
+
+}

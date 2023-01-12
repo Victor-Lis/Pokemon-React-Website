@@ -1,0 +1,9 @@
+.pokemon-card{
+
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+
+}

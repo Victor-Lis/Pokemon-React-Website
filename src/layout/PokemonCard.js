@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './PokemonCard-module.css'
+
 import {useState, useEffect} from 'react'
 
 const Pokemon = ({name}) => {
@@ -24,10 +26,10 @@ const Pokemon = ({name}) => {
   }, [])    
 
   return (
-    <div>
+    <div className='pokemon-card'>
         
-        <h3> {name} </h3>
-        <img src={pokemonImg} />
+        <h2 className='pokemon-card-name'> {name} </h2>
+        <img className='pokemon-card-img' src={pokemonImg} />
 
     </div>
   )

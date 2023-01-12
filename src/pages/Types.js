@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+import './Types-module.css'
+
 import PokemonCard from '../layout/PokemonCard'
 
 const Types = ({type}) => {
@@ -30,16 +32,20 @@ const Types = ({type}) => {
   }, [])
 
   return (
-    <div> 
+    <div className='type'> 
       
-      <h1> {type} </h1> 
+      <h1 className='title-type'> {type} </h1> 
     
-      {pokemon.length > 0 && 
+      <div className='type-area'>
+
+        {pokemon.length > 0 && 
       
-        pokemon.map(pokemon => <PokemonCard key={Math.random()} name={pokemon} />) 
+          pokemon.map(pokemon => <PokemonCard key={Math.random()} name={pokemon} />) 
       
-      }
+        }
     
+      </div>
+
     </div>
   )
 }
