@@ -95,13 +95,22 @@ nav{
 
   }
   
+  @media (max-width: 400px){
+
+    .nav{
+  
+      padding: 3.5% 7.5%;
+      width: 85%;
+  
+    }
+
+  }
+  
   @media (max-width: 550px){
 
     .nav{
   
-      padding: 3.5%;
-      padding-left: 5%;
-      padding-right: 5%;
+      padding: 3.5% 5%;
       width: 90%;
   
     }
