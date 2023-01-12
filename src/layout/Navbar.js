@@ -10,7 +10,6 @@ function Navbar(){
             <div className={styles.links_area}>
 
                 <Link to='/'> Home </Link> 
-                <Link to='/categorys'> Categorias </Link> 
 
             </div>
 
