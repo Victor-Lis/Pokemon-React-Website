@@ -1,5 +1,7 @@
 import React from 'react'
 
+import imageNotFound from '../imgs/Image-not-found.png'
+
 import './PokemonCard-module.css'
 
 import {useState, useEffect} from 'react'
@@ -26,10 +28,11 @@ const Pokemon = ({name}) => {
   }, [])    
 
   return (
+    
     <div className='pokemon-card'>
         
-        <h2 className='pokemon-card-name'> {name} </h2>
-        <img className='pokemon-card-img' src={pokemonImg} />
+        <h5 className='pokemon-card-name'> {name} </h5>
+        <img className='pokemon-card-img' src={pokemonImg || imageNotFound} />
 
     </div>
   )
