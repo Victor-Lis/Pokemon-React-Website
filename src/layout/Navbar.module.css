@@ -99,9 +99,17 @@ nav{
 
     .nav{
   
-      padding: 3.5% 7.5%;
+      padding: 5.5% 7.5%;
       width: 85%;
   
+    }
+
+    .links_area > a{
+
+      font-size: 1.4rem;
+      margin-top: 2%;
+      margin-bottom: 3%;
+
     }
 
   }
