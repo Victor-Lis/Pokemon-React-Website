@@ -20,7 +20,7 @@ nav{
   
     color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
   
   }
   
@@ -96,6 +96,13 @@ nav{
   }
   
   @media (max-width: 400px){
+
+    .nav{
+  
+      padding: 3.5%;
+      width: 93%;
+  
+    }
 
     .links_area > a{
 

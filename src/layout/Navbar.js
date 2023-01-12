@@ -13,7 +13,7 @@ function Navbar(){
 
             </div>
 
-            <div className={styles.inputs_area}> <input placeholder='Procure aqui!'/> <button> Buscar </button> </div>
+            {/* <div className={styles.inputs_area}> <input placeholder='Procure aqui!'/> <button> Buscar </button> </div> */}
 
         </nav>
 
