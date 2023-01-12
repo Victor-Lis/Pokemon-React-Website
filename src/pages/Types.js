@@ -34,7 +34,7 @@ const Types = ({type}) => {
   return (
     <div className='type'> 
       
-      <h1 className='title-type'> {type} </h1> 
+      <h3 className='title-type'> {type} </h3> 
     
       <div className='type-area'>
 
