@@ -4,12 +4,9 @@ import './Types-module.css'
 
 import PokemonCard from '../layout/PokemonCard'
 
-const Types = ({type}) => {
-
+const Types = ({type, pokemon, setNewPokemon}) => {
+  
   const getPokemonUrl = `https://pokeapi.co/api/v2/type/`
-
-  const [pokemon, setPokemon] = useState([])
-  const [pokemonIds, setPokemonIds] = useState([])
 
   const getPokemon = async (type) => {
 
@@ -17,11 +14,10 @@ const Types = ({type}) => {
     let data = await resp.json()
 
     let arrayNames = []
-    let arrayIds = []
 
     data.pokemon.map(index => arrayNames.push(index.pokemon.name) )
 
-    setPokemon(arrayNames)
+    setNewPokemon(arrayNames)
 
   }
 

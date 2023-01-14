@@ -2,11 +2,17 @@ import React from 'react'
 
 import imageNotFound from '../imgs/Image-not-found.png'
 
+import {Link, Routes, Route} from 'react-router-dom'
+
+import Pokemon from '../pages/Pokemon'
+
+import Home from '../pages/Home'
+
 import './PokemonCard-module.css'
 
 import {useState, useEffect} from 'react'
 
-const Pokemon = ({name}) => {
+const PokemonCard = ({name}) => {
 
   const pokemonUrl = `https://pokeapi.co/api/v2/pokemon/`
 
@@ -31,11 +37,13 @@ const Pokemon = ({name}) => {
     
     <div className='pokemon-card'>
         
-        <h5 className='pokemon-card-name'> {name} </h5>
-        <img className='pokemon-card-img' src={pokemonImg || imageNotFound} />
+      <h5 className='pokemon-card-name'> {name} </h5>
+      <img className='pokemon-card-img' src={pokemonImg || imageNotFound} />
+
+      <Link to={`/${name}`} className="pokemon-footer-title"> Ver mais </Link>
 
     </div>
   )
 }
 
-export default Pokemon
+export default PokemonCard
