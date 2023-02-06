@@ -10,14 +10,12 @@ import Pokemon from './pages/Pokemon'
 
 function App(){
 
-  const [loading, setLoading] = useState([])
   const typeUrl = `https://pokeapi.co/api/v2/type/`
   const [typesNames, setTypesNames] = useState([])
   const [pokemon, setPokemon] = useState([])
 
   const getTypes = async (url) => {
 
-      setLoading(true)
       let res = await fetch(url);
       let data = await res.json();
       
@@ -29,8 +27,6 @@ function App(){
       data.results.map((index) => (array.push(index.name)))
 
       setTypesNames(array)
-
-      setLoading(false)
 
   };
 
@@ -56,7 +52,7 @@ function App(){
 
         <Route path="/" element={<Home typesNames={typesNames}/>}/>
         {typesNames.length > 0 && typesNames.map(type => (<Route key={Math.random()} path={`type/${type}`} element={<Types type={type} pokemon={pokemon} setNewPokemon={setNewPokemon}/>} />))}
-        {pokemon.length > 0 && pokemon.map(pokemon => (<Route key={Math.random()} path={`/${pokemon}`} element={<Pokemon pokemon={pokemon}/>} />))}
+        {pokemon.length > 0 && pokemon.map(pokemon => (<Route key={Math.random() * 100} path={`/${pokemon}`} element={<Pokemon pokemon={pokemon} />} />))}
 
       </Routes>
       
